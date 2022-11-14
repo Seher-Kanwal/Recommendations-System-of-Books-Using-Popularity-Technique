@@ -19,3 +19,11 @@ Recommendation systems collect customer data and auto analyze this data to gener
 
 Content-based filtering and collaborative filtering are two approaches commonly used to generate recommendations. But we have some other recommendations approaches too.
 Here in this project we use popularity based recommendation system.
+
+# Popularity based recommendation system
+As the name suggests Popularity based recommendation system works with the trend. It basically uses the items which are in trend right now. For example, if any product which is usually bought by every new user then there are chances that it may suggest that item to the user who just signed up.
+
+There are some problems as well with the popularity based recommender system and it also solves some of the problems with it as well.
+
+The problems with popularity based recommendation system is that the personalization is not available with this method i.e. even though you know the behaviour of the user you cannot recommend items accordingly.
+and it somehow solve the __Cold Start__ problem, when a new user enter in the system, the recommendation system is unable to generate recommendation if we use Collaborative and Content-based recommendation approaches.
